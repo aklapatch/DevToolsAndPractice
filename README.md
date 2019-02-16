@@ -15,8 +15,10 @@ Use git and github.
 ## Documentation
 Use a Doxygen and Sphinx and Breathe together with the sphinx_rtd_theme.
 
+Doxypress and Natural Docs might be good options as well.
+
 ## Coding standards
-I will use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html) for C/C++, and will to refer to other languages preferences when using those languages.
+I will use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html) for C/C++, and will try to use other languages preferences when using those languages.
 
 # Tools
 
