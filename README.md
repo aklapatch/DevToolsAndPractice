@@ -34,6 +34,10 @@ I will use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html)
 + ninja (not as versatile as make, but fast)
 + make
 
+## Database clients
++ dbeaver (for mariadb and linux)
++ hiedisql (for mariadb and windows)
+
 ## Best Linux Distros (for me)
 + Arch
 + Manjaro
@@ -71,3 +75,5 @@ I will use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html)
 + [Oni](https://github.com/onivim/oni): Nvim based nodal editor. A bit heavy, but I like it.
 
 + [Geany](https://www.geany.org/): Light, fast, and good autocompletion, but is not heavily developed and has no syntax checking
+
+## Misc
