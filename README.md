@@ -1,4 +1,4 @@
-# Style and methodology preferences
+# Preferences for development
 
 ## My bias
 I am working toward being a computer engineer, and as a result do not use high level languages like Python or Javascript as much as C or C++. Because of my experience, I prefer to use faster programming languages, or ones that can be optimized to be fast (Cython for Python for example). I do not prefer languages like Java and C# because the applications that use those languages a lot (Visual Studio and Eclipse) are slow. I will still use C# and Java if I need to, but from what I can see, there is almost always a better solution that C# or Java.
@@ -65,10 +65,16 @@ This sections is for languages that I should learn because they are modern or of
 + [DebianTesting](https://wiki.debian.org/DebianTesting): You can get it by using [SparkyLinux](https://sparkylinux.org/download/rolling/)
 
 ## UI Library
-+ [WxPython](https://wxpython.org/): The best combination of an easy programming language, and a native/cross platform GUI that I could find. 
++ [WxPython](https://wxpython.org/): The best combination of an easy programming language, and a native/cross platform GUI that I could find.
+
+## Graphics API
++ [Vulkan](https://www.khronos.org/vulkan/): Verbose, efficient API (Use the [LunarG SDK](https://www.lunarg.com/vulkan-sdk/))
++ [GLFW](https://www.glfw.org/): Cross-platform window creation
 
 ## Other Cross Platform tools
-+ [Cppcheck](http://cppcheck.sourceforge.net/) (static analysis)
++ [Cppcheck](http://cppcheck.sourceforge.net/): Static analysis
++ [Ccache](https://ccache.samba.org/): Speeds up rebuilds of software
++ [Graphviz](https://graphviz.org/): Makes callgraphs in Doxygen
 
 ## Windows Tools
 + [MSYS2](https://www.msys2.org/) (basically a must have for me)
