@@ -3,6 +3,8 @@
 ## My bias
 I am working toward being a computer engineer, and as a result do not use high level languages like Python or Javascript as much as C or C++. Because of my experience, I prefer to use faster programming languages, or ones that can be optimized to be fast (Cython for Python for example). I do not prefer languages like Java and C# because the applications that use those languages a lot (Visual Studio and Eclipse) are slow. I will still use C# and Java if I need to, but from what I can see, there is almost always a better solution that C# or Java.
 
+Go with what works. If something works better, go with that instead.
+
 ## Development process
 1. Start programming without an full idea of the entire system
 2. Realize that I need to plan
@@ -12,7 +14,7 @@ I am working toward being a computer engineer, and as a result do not use high l
 6. Find a way to improve my Development process
 
 ## Source control
-Use git and github.
+Use [Git](https://git-scm.com/) and [Github](https://github.com/).
 
 ## Documentation
 Use [Doxygen](http://doxygen.nl/) or find something better. [Natural Docs](https://www.naturaldocs.org/) and Doxygen + [Sphinx](http://www.sphinx-doc.org/en/master/) + [Breathe](https://breathe.readthedocs.io/en/latest/) (using the [sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)) both look promising.
@@ -66,7 +68,7 @@ This sections is for languages that I should learn because they are modern or of
 + [WxPython](https://wxpython.org/): The best combination of an easy programming language, and a native/cross platform GUI that I could find. 
 
 ## Other Cross Platform tools
-+ [cppcheck](http://cppcheck.sourceforge.net/) (static analysis)
++ [Cppcheck](http://cppcheck.sourceforge.net/) (static analysis)
 
 ## Windows Tools
 + [MSYS2](https://www.msys2.org/) (basically a must have for me)
