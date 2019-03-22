@@ -35,7 +35,7 @@ This sections is for languages that I should learn because they are modern or of
 
 + [Python](https://www.python.org/): Has a library for everything, and is easy to program in. If I did not use Julia, I would use Python.
 
-+ [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language): Utterly unique and remains so. Learn it, and it will give you a better perspective into programming in general (or so I have heard).
++ [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)): Utterly unique and remains so. Learn it, and it will give you a better perspective into programming in general (or so I have heard).
 
 + [PHP](https://secure.php.net/): Practical and useful web development language. Good for hooking up databases to websites too.
 
@@ -99,7 +99,7 @@ This sections is for languages that I should learn because they are modern or of
 
 + [Visual Studio Code](https://code.visualstudio.com/): The flexibility of a code editor with the power of an IDE. If only it was not made in Electron.
 
-+ [VSCodium](https://github.com/VSCodium/vscodium): VSCode without telemetry. Also what I currently use. I used the Shades of Purple theme and usually reduce the font size.
++ [VSCodium](https://github.com/VSCodium/vscodium): VSCode without telemetry. Also what I currently use. I used the Shades of Purple theme with Rainbow Brackets usually reduce the font size.
 
 + [Oni](https://github.com/onivim/oni): Nvim based nodal editor. A bit heavy, but I like it.
 
