@@ -20,7 +20,7 @@ Use [Git](https://git-scm.com/) and [Github](https://github.com/).
 Use [Doxygen](http://doxygen.nl/) or find something better. [Natural Docs](https://www.naturaldocs.org/) and Doxygen + [Sphinx](http://www.sphinx-doc.org/en/master/) + [Breathe](https://breathe.readthedocs.io/en/latest/) (using the [sphinx_rtd_theme](https://github.com/rtfd/sphinx_rtd_theme)) both look promising.
 
 ## Coding standards
-I will use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html) for C/C++, and will try to use other languages preferences when using those languages.
+I try to use the [LLVM coding standard](http://llvm.org/docs/CodingStandards.html) for C/C++, and will try to use other languages preferences when using those languages.
 
 ## Programming Languages 
 This sections is for languages that I should learn because they are modern or offer lots of libraries or features.
@@ -71,10 +71,13 @@ This sections is for languages that I should learn because they are modern or of
 + [Vulkan](https://www.khronos.org/vulkan/): Verbose, efficient API (Use the [LunarG SDK](https://www.lunarg.com/vulkan-sdk/))
 + [GLFW](https://www.glfw.org/): Cross-platform window creation
 
-## Other Cross Platform tools
+## Other tools
 + [Cppcheck](http://cppcheck.sourceforge.net/): Static analysis
 + [Ccache](https://ccache.samba.org/): Speeds up rebuilds of software
 + [Graphviz](https://graphviz.org/): Makes callgraphs in Doxygen
++ [Heaptrack](https://github.com/KDE/heaptrack): Profiles heap allocations and helps find memory leaks (Linux only)
++ [clang-tidy](https://clang.llvm.org/extra/clang-tidy/): Detects typical programming errors 
++ [valgrind](http://valgrind.org/docs/manual/quick-start.html): virtual machine that finds memory leaks and out of bounds reads and writes. Also has some profiling tools like [CallGrind](http://valgrind.org/docs/manual/cl-manual.html).
 
 ## Windows Tools
 + [MSYS2](https://www.msys2.org/) (basically a must have for me)
@@ -89,6 +92,10 @@ This sections is for languages that I should learn because they are modern or of
 + [Eclipse](https://www.eclipse.org/downloads/): Cross Platform, and feature rich, but heavy (Java-based). It's plugin model allows us to adapt to most programming languages
 
 + [Visual Studio](https://visualstudio.microsoft.com/): If I have to. Best debugging I have seen so far, but too complicated for my liking
+
++ [Kdevelop](https://www.kdevelop.org/): KDE based IDE for C,C++, Python, JavaScript and PHP. Somewhat heavy, and has most features, but it is aging in design.
+
++ [QtCreator](https://www.qt.io/qt-features-libraries-apis-tools-and-ide/): Qt based IDE. Seems great if you work in Qt, but the interface is limited, and I am not a huge fan.
 
 ## Code editors
 + [Vim](https://www.vim.org/download.php/): It's everywhere, and for good reason.
