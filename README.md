@@ -5,13 +5,14 @@ I am working toward being a computer engineer, and as a result do not use high l
 
 Go with what works. If something works better, go with that instead.
 
-## Development process
-1. Start programming without an full idea of the entire system
-2. Realize that I need to plan
-3. Plan a little
-4. Code more
-5. Repeat from 2
-6. Find a way to improve my Development process
+## Development principles
+Most of these principles are derived from whatever wisdom I can find on youtube and the internet in general.
+
++ Clean Architecture: Implement the most static (changes the least) component first (like business rules in a database). Then make everything else a plugin to that static component. Taken from a [lecture given by Bob Martin](https://www.youtube.com/watch?v=o_TH-Y78tt4).
+
++ Test Driven Development: Make tests that prove that your program satisfies specifications and works. The tests should be thorough enough so that you can ship a release when all the tests pass. This principle is also from [Bob Martin](https://www.youtube.com/watch?v=17vTLSkXTOo).
+
++ Data Oriented Design: Design software use the CPU cache as efficiently as possible. This means that you have to design your architecture around the flow of data and move data as efficiently as possible (using the CPU cache). This usually does not work with object oriented programming, since OOP can overcompartmentalize data flow. This principle is from a [lecture by Mike Action](https://www.youtube.com/watch?v=rX0ItVEVjHc).
 
 ## Source control
 Use [Git](https://git-scm.com/) and [Github](https://github.com/).
@@ -58,6 +59,7 @@ This sections is for languages that I should learn because they are modern or of
 ## Database clients
 + [DBeaver](https://dbeaver.io/): A bit slow since it is java based, but is cross platform.
 + [HiediSQL](https://www.heidisql.com/): Has the best UI Layout (IMO) for a DBMS and works under WINE for Linux.
++ [pgAdmin](https://www.pgadmin.org/): Web-based DBMS for [PostgreSQL](https://www.postgresql.org/). Interface is not great, but I have had a hard time getting other DBMS's to work with PostgreSQL.
 
 ## Best Linux Distros (for me)
 + [Arch](https://www.archlinux.org/)
@@ -86,7 +88,8 @@ This sections is for languages that I should learn because they are modern or of
 + [ConEmu](https://conemu.github.io/) (If only Window's terminals natively supported tabbing)
 
 ## Linux Tools
-+ [i3 Window Manager](https://i3wm.org/)
++ [i3 Window Manager](https://i3wm.org/): lightweight WM desktop environment
++ [Lxqt](https://lxqt.org/): A light qt environment. I personally use it with xfwm4 from [Xfce](https://xfce.org/) since xfwm4 has key bindings to snap windows to certain sections of the screen.
 
 ## IDE's
 + [Eclipse](https://www.eclipse.org/downloads/): Cross Platform, and feature rich, but heavy (Java-based). It's plugin model allows us to adapt to most programming languages
@@ -105,6 +108,8 @@ This sections is for languages that I should learn because they are modern or of
 + [Oni2](https://github.com/onivim/oni2): currently alpha, nvim IDE based on [revery](https://github.com/revery-ui/revery).
 
 + [Visual Studio Code](https://code.visualstudio.com/): The flexibility of a code editor with the power of an IDE. If only it was not made in Electron.
+
++ [Atom](https://atom.io/): A rather slow code editor implemented in the [Electron](https://electronjs.org/) framework.
 
 + [VSCodium](https://github.com/VSCodium/vscodium): VSCode without telemetry. Also what I currently use. I used the Shades of Purple theme with Rainbow Brackets usually reduce the font size.
 
