@@ -103,6 +103,8 @@ This sections is for languages that I should learn because they are modern or of
 ## Code editors
 + [Vim](https://www.vim.org/download.php/): It's everywhere, and for good reason.
 
++ [Emacs](https://www.gnu.org/software/emacs/): A very extensible and customizable text editor. It has been said that emacs could be its own operating system, based on how many programs and functionality you can add on top of ig.
+
 + [Neovim](https://neovim.io/): Modernized vim. I try to use it instead of vim, but that tends to be difficult.
 
 + [Oni2](https://github.com/onivim/oni2): currently alpha, nvim IDE based on [revery](https://github.com/revery-ui/revery).
