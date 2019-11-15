@@ -50,4 +50,9 @@ Most of these are derived from the internet, and my personal experience.
     3. James Mickens is very funny, and has good security insights. It's a pity there are not more videos of him on YouTube.
     4. Brian Cantrill (Worked on Solaris in the Sun days) is fun to listen to, and his enthusiasm is engaging. [This is probably one of his best talks](https://www.youtube.com/watch?v=9QMGAtxUlAc)
 
+# Development Tools (what I use)
 
+## Code editors
+1. [Neovim](https://neovim.io/) and Vim
+2. Emacs
+3. Visual Studio Code
