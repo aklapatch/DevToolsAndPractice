@@ -46,9 +46,9 @@ Most of these are derived from the internet, and my personal experience.
 4. Examples are the best documentation.
 
 5. If you want to learn about development, watch programming conference talks on Youtube. Those people are probably some of the best in their field, and can show you more useful information in an hour than most college classes will in a week. These are some good places to start:
-  1. Any talk that Kevlin Henny does. He talks mostly about coding style and design simplicity.
-  2. CppCon talks are really good, even if you don't use C++. C++ is popular, and is the backbone of a lot of modern technology, so a lot of very smart people talk at these CppCon. Start with the ones with Chandler Carruth in them. I have found those to be consistently good.
-  3. James Mickens is very funny, and has good security insights. It's a pity there are not more videos of him on YouTube.
-  4. Brian Cantrill (Worked on Solaris in the Sun days) is fun to listen to, and his enthusiasm is engaging. [This is probably one of his best talks](https://www.youtube.com/watch?v=9QMGAtxUlAc)
+    1. Any talk that Kevlin Henny does. He talks mostly about coding style and design simplicity.
+    2. CppCon talks are really good, even if you don't use C++. C++ is popular, and is the backbone of a lot of modern technology, so a lot of very smart people talk at these CppCon. Start with the ones with Chandler Carruth in them. I have found those to be consistently good.
+    3. James Mickens is very funny, and has good security insights. It's a pity there are not more videos of him on YouTube.
+    4. Brian Cantrill (Worked on Solaris in the Sun days) is fun to listen to, and his enthusiasm is engaging. [This is probably one of his best talks](https://www.youtube.com/watch?v=9QMGAtxUlAc)
 
 
