@@ -12,36 +12,35 @@ Go with what works. If something works better, go with that instead.
 Most of these are derived from the internet, and my personal experience.
 
 1. Performance is mostly derived from using the CPU cache as efficiently and effectively as possible. Here are a couple ways you can do that:
-  1. Keep your data set as small as possible
-  2. Condense arrays of pointers to a single array (not good if you need quick item insertion though)
-  3. Use arrays wherever possible (From one of Chandler Carruth's CppCon talks)
-  4. Don't condense extra items into a for/while loop. Doing the following:
-  ```
-  sum = 0
-  for(number in array)
-    sum += number
-  endfor
+    1. Keep your data set as small as possible
+    2. Condense arrays of pointers to a single array (not good if you need quick item insertion though)
+    3. Use arrays wherever possible (From one of Chandler Carruth's CppCon talks)
+    4. Don't condense extra items into a for/while loop. Doing the following:
+    ```
+    sum = 0
+    for(number in array)
+      sum += number
+    endfor
   
-  othersum = 0
-  for(number in otherarray)
-    othersum += number
-  endfor
+    othersum = 0
+    for(number in otherarray)
+      othersum += number
+    endfor
+    ```
+    is faster than doing this:
+    ```
+    othersum = 0
+    sum = 0
+    for(item in array, otheritem in otherarray )
+      othersum += otheritem
+      sum += item
+    endfor
+    ```
+    The latter is slower because the cache has to hold 2 arrays now. Those 2 arrays are competeting for cache space.
   
-  ```
-  is faster than doing this:
-  ```
-  othersum = 0
-  sum = 0
-  for(item in array, otheritem in otherarray )
-    othersum += otheritem
-    sum += item
-  endfor
-  ```
-  The latter is slower because the cache has to hold 2 arrays now. Those 2 arrays are competeting for cache space.
-  
-2. When should you make something into a separate function? In my opinion, separate a behavior into a function whenever you are going to that behavior more than once. It will be more compact and reduce code size.
+2. Separate a behavior into a function whenever you are going to that behavior more than once. It will be more compact and reduce code size.
 
-3. Well documented libraries that someone else made make development easy.
+3. Easy development originates from using someone else's well documented library.
 
 4. Examples are the best documentation.
 
