@@ -1,6 +1,4 @@
-# Development tools and practice
-
-## My bias
+# My bias
 I am working toward being a computer engineer, and as a result do not use high level languages like Python or Javascript as much as C or C++. Because of my experience, I prefer to use faster programming languages, or ones that can be optimized to be fast (Cython for Python for example). I do not prefer languages like Java and C# because, IMO, They provide even more verbosity than C/C++ without the speed of C++/C. 
 
 Granted, Java and C# have other benefits, but those benefits are basically all runtime-related, and are not attached to the language syntax.
@@ -45,14 +43,15 @@ These are taken from people on the internet and my personal experience.
 4. Examples are the best documentation.
 
 5. If you want to learn about development, watch programming conference talks on Youtube. Those people are probably some of the best in their field, and can show you more useful information in an hour than most college classes will in a week. These are some good places to start:
-    1. Any talk that Kevlin Henny does. He talks mostly about coding style and design simplicity.
-    2. CppCon talks are really good, even if you don't use C++. C++ is popular, and is the backbone of a lot of modern technology, so a lot of very smart people talk at these CppCon. Start with the ones with Chandler Carruth in them. I have found those to be consistently good.
-    3. James Mickens is very funny, and has good security insights. It's a pity there are not more videos of him on YouTube.
-    4. Brian Cantrill (Worked on Solaris in the Sun days) is fun to listen to, and his enthusiasm is engaging. [This is probably one of his best talks](https://www.youtube.com/watch?v=9QMGAtxUlAc)
+    1. This [talk](https://www.youtube.com/watch?v=z43bmaMwagI) by Jules May. To summarize, if's with shared conditions are the cause of the vast majority of bugs.
+    2. Any talk that Kevlin Henny does. He talks mostly about coding style and design simplicity.
+    3. CppCon talks are really good, even if you don't use C++. C++ is popular, and is the backbone of a lot of modern technology, so a lot of very smart people talk at these CppCon. Start with the ones with Chandler Carruth in them. I have found those to be consistently good.
+    4. James Mickens is very funny, and has good security insights. It's a pity there are not more videos of him on YouTube.
+    5. Brian Cantrill (Worked on Solaris in the Sun days) is fun to listen to, and his enthusiasm is engaging. [This is probably one of his best talks](https://www.youtube.com/watch?v=9QMGAtxUlAc)
     
 6. Web development is hard and sucks. You need to know 4 proramming languages (html, javascript, css, and a backend language of your choice) to be able to do anything really good. You can tell the existing tools suck because people keep making new ones (coffeescript, typescript, elm, etc.)
 
-7. Inspired by this [video](https://www.youtube.com/watch?v=zqs87a_7zxw&t=4404s). Know your data, your setup and their unique properties. There are often optimizations that only you can make in your unique situation.
+7. Know your data, your setup and their unique properties. There are often optimizations that only you can make in your unique situation. Inspired by this [talk](https://www.youtube.com/watch?v=zqs87a_7zxw&t=4404s) by M. Skarupke.
 
 8. Read first, ask questions later: often a thorough reading of documentation, or a internet search will clear things up.
 
@@ -100,10 +99,12 @@ I mostly pick code editors based on how satisfied I am while using them. When ma
 ## Desktop environment
 The [i3 window manager](https://i3wm.org/) with [xfce4](https://xfce.org/) panels.
 
-## Languages that I should make someday
+## Tools that I should make someday
 + A low level language (like C) that incorporates lisp's metaprogramming capabilities without sacrificing speed or ease of use.
 
 + A single web development language that can replace HTML, Javascript, CSS, and your favorite backend language.
+
++ A language construct that removes the possiblity for shared conditions in code.
 
 ## Misc.
 + [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard): This is a premade configuration for GDB that makes it a lot more usable.
