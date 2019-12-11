@@ -71,6 +71,10 @@ These are taken from people on the internet and my personal experience.
 
 16. Don't beat yourself up: Being hard on yourself associates negative emotion with a general activity and makes your failure more memorable. That means that you will be more reluctant to try that activity next time, or more reluctant to improve on the area where you struggled. However, you should not make excuses or refuse to take blame.
 
+17. When naming variables and functions, try to be as accurate as possible (from Kevlin Henny). Make sure that the names you give those parts of your program reflect the purpose and intent of what you are doing with them.
+
+18. Whenever you name a process, make sure that it is named so that you can tell what you use it for. A bad example is low pass and high pass filters. You use low pass filters to reject high frequency signals and an you use high pass filters to reject low frequencies. That extra step you have to take to translate the term into what you use it for could be avoided if that term was better made. A better example are band pass and band reject filters, since you use a band pass filter to pass through a small band of frequencies, and you use a band reject filter to reject a small band of frequncies.
+
 # Development Tools (what I use)
 
 ## Code editors
@@ -108,4 +112,4 @@ The [i3 window manager](https://i3wm.org/) with [xfce4](https://xfce.org/) panel
 
 ## Misc.
 + [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard): This is a premade configuration for GDB that makes it a lot more usable.
-+ [GUD](https://www.emacswiki.org/emacs/GrandUnifiedDebugger): The emacs debugger, This one is pretty good if you are usin Emacs anyway, but it does not have a watch window _by default_, wich I miss from Visual Studio Code.
++ [GUD](https://www.emacswiki.org/emacs/GrandUnifiedDebugger): The emacs debugger, This one is pretty good if you are using Emacs anyway, but it does not have a watch window _by default_, wich I miss from Visual Studio Code.
