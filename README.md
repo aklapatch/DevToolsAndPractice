@@ -89,7 +89,7 @@ I mostly pick code editors based on how satisfied I am while using them. When ma
 ## Favorite Programming laguages (that I have used)
 + [Zig](https://ziglang.org/): Simple enough, and fulfills a low-level programming C replacement niche that few have tried to fill.
 
-+ [Julia](https://julialang.org/): The syntax and ease of use of a scripting language, and speed that is close enough to a compiled language. It also has the features of a modern programming languages (tests, pacakage manager, build system, etc.)
++ [Julia](https://julialang.org/): The syntax and ease of use of a scripting language, and speed that is close enough to a compiled language. It also has the features of a modern programming languages (tests, package manager, build system, etc.)
 
 ## Source Control
 + [Git](https://git-scm.com/) and [Github](https://github.com/)
